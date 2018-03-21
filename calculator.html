@@ -15,6 +15,15 @@
 
         }
     </script>
+    <script type="text/javascript">
+        function sin() {
+
+            var num = document.getElementById("n1").value;
+            num = num * Math.PI / 180;
+            document.getElementById("n1").value = Math.sin(num);
+
+        }
+    </script>
 
 </head>
 
@@ -26,7 +35,7 @@
     <p>
 
         <button onclick="cube()"> x^3 </button>
-
+        <button onclick="sin()"> sin(x) </button>
 </body>
 
 </html>
